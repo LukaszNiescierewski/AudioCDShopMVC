@@ -203,6 +203,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707201717054_InitialCreate.cs" />
+    <Compile Include="Migrations\201707201717054_InitialCreate.Designer.cs">
+      <DependentUpon>201707201717054_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707201730308_AddNewArrivals.cs" />
+    <Compile Include="Migrations\201707201730308_AddNewArrivals.Designer.cs">
+      <DependentUpon>201707201730308_AddNewArrivals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Album.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Order.cs" />
@@ -232,6 +241,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201707201717054_InitialCreate.resx">
+      <DependentUpon>201707201717054_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707201730308_AddNewArrivals.resx">
+      <DependentUpon>201707201730308_AddNewArrivals.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

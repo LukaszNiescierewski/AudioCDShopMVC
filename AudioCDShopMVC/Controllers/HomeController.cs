@@ -19,7 +19,7 @@ namespace AudioCDShopMVC.Controllers
             db.Genres.Add(newGenre);
             db.SaveChanges();
             */
-            var genresList = db.Genres.ToList();
+            //var genresList = db.Genres.ToList();
             return View();
         }
 

@@ -1,22 +1,25 @@
-﻿using AudioCDShopMVC.Models;
+﻿using AudioCDShopMVC.Migrations;
+using AudioCDShopMVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Data.Entity.Migrations;
+using System.Threading.Tasks;
 
 namespace AudioCDShopMVC.DAL
 {
-    public class StoreInitializer : DropCreateDatabaseAlways<StoreContext>
+    public class StoreInitializer : MigrateDatabaseToLatestVersion<StoreContext, Configuration>
     {
-        protected override void Seed(StoreContext context)
+        /*protected override void Seed(StoreContext context)
         {
             SeedStoreData(context);
 
             base.Seed(context);
-        }
+        }*/
 
-        private void SeedStoreData (StoreContext context)
+        public static void SeedStoreData (StoreContext context)
         {
             var genres = new List<Genre>
             {
@@ -34,7 +37,7 @@ namespace AudioCDShopMVC.DAL
                 new Genre() { GenreId = 12, Name = "Promocje", IconFilename = "promos.png" }
             };
 
-            genres.ForEach(g => context.Genres.Add(g));
+            genres.ForEach(g => context.Genres.AddOrUpdate(g));
             /*foreach (Models.Genre g in genres)
             {
                 context.Genres.Add(g);
@@ -54,7 +57,7 @@ namespace AudioCDShopMVC.DAL
                 new Album() { AlbumId = 9, ArtistName = "Str8ts", AlbumTitle = "Sneakers Only", Price = 25, CoverFileName = "9.png", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 2 }
             };
 
-            albums.ForEach(a => context.Albums.Add(a));
+            albums.ForEach(a => context.Albums.AddOrUpdate(a));
             context.SaveChanges();
 
         }

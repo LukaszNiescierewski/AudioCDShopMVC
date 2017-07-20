@@ -51,3 +51,6 @@ C:\Users\Łukasz\Source\Repos\MyFirstProject\AudioCDShopMVC\AudioCDShopMVC\bin\E
 C:\Users\Łukasz\Source\Repos\MyFirstProject\AudioCDShopMVC\AudioCDShopMVC\bin\EntityFramework.SqlServer.dll
 C:\Users\Łukasz\Source\Repos\MyFirstProject\AudioCDShopMVC\AudioCDShopMVC\bin\EntityFramework.xml
 C:\Users\Łukasz\Source\Repos\MyFirstProject\AudioCDShopMVC\AudioCDShopMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Łukasz\Source\Repos\MyFirstProject\AudioCDShopMVC\AudioCDShopMVC\obj\Debug\AudioCDShopMVC.Migrations.InitialCreate.resources
+C:\Users\Łukasz\Source\Repos\MyFirstProject\AudioCDShopMVC\AudioCDShopMVC\obj\Debug\AudioCDShopMVC.csproj.GenerateResource.Cache
+C:\Users\Łukasz\Source\Repos\MyFirstProject\AudioCDShopMVC\AudioCDShopMVC\obj\Debug\AudioCDShopMVC.Migrations.AddNewArrivals.resources
