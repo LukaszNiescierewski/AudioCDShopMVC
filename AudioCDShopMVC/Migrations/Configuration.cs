@@ -11,6 +11,7 @@ namespace AudioCDShopMVC.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "AudioCDShopMVC.DAL.StoreContext";
         }
 
         protected override void Seed(AudioCDShopMVC.DAL.StoreContext context)

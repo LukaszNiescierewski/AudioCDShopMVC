@@ -1,5 +1,6 @@
 ﻿using AudioCDShopMVC.DAL;
 using AudioCDShopMVC.Models;
+using AudioCDShopMVC.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,20 +15,20 @@ namespace AudioCDShopMVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            /*
-            Genre newGenre = new Genre { Name = "Rock", Description = "Opis gatunku", IconFilename = "1.png" };
-            db.Genres.Add(newGenre);
-            db.SaveChanges();
-            */
-            //var genresList = db.Genres.ToList();
-            return View();
-        }
+            var genres = db.Genres.ToList();
+            var newArrivals = db.Albums.Where(a => !a.IsHidden).OrderByDescending(a => a.DateAdded).Take(3).ToList();
+            var bessellers = db.Albums.Where(a => !a.IsHidden && a.IsBestseller).OrderBy(g => Guid.NewGuid()).Take(3).ToList();
 
+            var vm = new HomeViewModel()
+            { Bestsellers = bessellers, Genres = genres, NewArrivals = newArrivals };
+
+            return View(vm);
+        }
 
         public ActionResult StaticContent(string viewname)
         {
             return View(viewname);
-            
+
         }
     }
-} 
+}

@@ -3,16 +3,15 @@ using AudioCDShopMVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
 using System.Data.Entity.Migrations;
-using System.Threading.Tasks;
+using System.Linq;
+using System.Web;
 
 namespace AudioCDShopMVC.DAL
 {
-    public class StoreInitializer : MigrateDatabaseToLatestVersion<StoreContext, Configuration>
+    public class StoreInitializer :MigrateDatabaseToLatestVersion<StoreContext, Configuration>
     {
-        /*protected override void Seed(StoreContext context)
+      /*  protected override void Seed(StoreContext context)
         {
             SeedStoreData(context);
 

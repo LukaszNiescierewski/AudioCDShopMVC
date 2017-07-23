@@ -18,10 +18,6 @@ namespace AudioCDShopMVC.Models
         public bool IsBestseller { get; set; }
         public bool IsHidden { get; set; }
 
-        public bool IsNewArrival { get; set; }
-
-        
-
         public virtual Genre Genre { get; set; }
     }
 }
