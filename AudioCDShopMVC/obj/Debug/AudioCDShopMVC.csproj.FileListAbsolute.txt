@@ -165,3 +165,10 @@ C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\obj\Debug\AudioCDSh
 C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\obj\Debug\AudioCDShopMVC.csproj.GenerateResource.Cache
 C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\obj\Debug\AudioCDShopMVC.dll
 C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\obj\Debug\AudioCDShopMVC.pdb
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\Antlr3.Runtime.dll
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\System.Web.Optimization.dll
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\WebGrease.dll
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\Newtonsoft.Json.dll
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\Antlr3.Runtime.pdb
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\Newtonsoft.Json.xml
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\System.Web.Optimization.xml
