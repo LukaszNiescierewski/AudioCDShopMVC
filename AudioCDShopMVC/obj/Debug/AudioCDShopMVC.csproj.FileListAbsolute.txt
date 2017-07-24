@@ -172,3 +172,8 @@ C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\Newtonsoft.Json
 C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\Antlr3.Runtime.pdb
 C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\Newtonsoft.Json.xml
 C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\System.Web.Optimization.xml
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\MvcSiteMapProvider.dll
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\MvcSiteMapProvider.WebActivator.dll
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\WebActivatorEx.dll
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\MvcSiteMapProvider.xml
+C:\Users\Łukasz\Source\Repos\AudioCDShopMVC2\AudioCDShopMVC\bin\MvcSiteMapProvider.WebActivator.xml

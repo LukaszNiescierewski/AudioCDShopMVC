@@ -24,7 +24,7 @@ namespace AudioCDShopMVC.Controllers
 
             return View(vm);
         }
-
+       
         public ActionResult StaticContent(string viewname)
         {
             return View(viewname);
