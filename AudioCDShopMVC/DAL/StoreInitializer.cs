@@ -45,15 +45,15 @@ namespace AudioCDShopMVC.DAL
 
             var albums = new List<Album>
             {
-                new Album() { AlbumId = 1, ArtistName = "The Reds", AlbumTitle = "More Way", Price = 99, CoverFileName = "1.png", IsBestseller = true, DateAdded = new DateTime(2014, 02, 1), GenreId = 1 },
-                new Album() { AlbumId = 2, ArtistName = "Dillusion", AlbumTitle = "All that nothing", Price = 54, CoverFileName = "2.png", IsBestseller = true, DateAdded = new DateTime(2013, 08, 15), GenreId = 1 },
-                new Album() { AlbumId = 3, ArtistName = "Allfor", AlbumTitle = "Golden suffering", Price = 102, CoverFileName = "3.png", IsBestseller = true, DateAdded = new DateTime(2014, 01, 5), GenreId = 1 },
-                new Album() { AlbumId = 4, ArtistName = "Stasik", AlbumTitle = "Pole samo się nie orze", Price = 25, CoverFileName = "4.jpg", IsBestseller = true, DateAdded = new DateTime(2014, 03, 11), GenreId = 1 },
-                new Album() { AlbumId = 5, ArtistName = "McReal", AlbumTitle = "Illusion", Price = 28, CoverFileName = "5.png", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 1 },
-                new Album() { AlbumId = 6, ArtistName = "The Punks", AlbumTitle = "Women Eater", Price = 30, CoverFileName = "6.png", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 1 },
-                new Album() { AlbumId = 7, ArtistName = "EX Band", AlbumTitle = "What", Price = 35, CoverFileName = "7.png", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 2 },
-                new Album() { AlbumId = 8, ArtistName = "Jamaican Cowboys", AlbumTitle = "IceTeam Quantanamera", Price = 21, CoverFileName = "8.png", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 2 },
-                new Album() { AlbumId = 9, ArtistName = "Str8ts", AlbumTitle = "Sneakers Only", Price = 25, CoverFileName = "9.png", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 2 }
+                new Album() { AlbumId = 1, ArtistName = "Led Zeppelin", AlbumTitle = "Led Zeppelin I", Price = 99, CoverFileName = "1.jpg", IsBestseller = true, DateAdded = new DateTime(2014, 02, 1), GenreId = 1 },
+                new Album() { AlbumId = 2, ArtistName = "Led Zeppelin", AlbumTitle = "Led Zeppelin II", Price = 54, CoverFileName = "2.jpg", IsBestseller = true, DateAdded = new DateTime(2013, 08, 15), GenreId = 1 },
+                new Album() { AlbumId = 3, ArtistName = "Led Zeppelin", AlbumTitle = "Led Zeppelin III", Price = 102, CoverFileName = "3.jpg", IsBestseller = true, DateAdded = new DateTime(2014, 01, 5), GenreId = 1 },
+                new Album() { AlbumId = 4, ArtistName = "Led Zeppelin", AlbumTitle = "Led Zeppelin IV", Price = 25, CoverFileName = "4.jpg", IsBestseller = true, DateAdded = new DateTime(2014, 03, 11), GenreId = 1 },
+                new Album() { AlbumId = 5, ArtistName = "Led Zeppelin", AlbumTitle = "Physical Graffiti", Price = 28, CoverFileName = "5.jpg", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 1 },
+                new Album() { AlbumId = 6, ArtistName = "Led Zeppelin", AlbumTitle = "Coda", Price = 30, CoverFileName = "6.jpg", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 1 },
+                new Album() { AlbumId = 7, ArtistName = "System of a down", AlbumTitle = "Steal this Album", Price = 35, CoverFileName = "7.jpg", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 2 },
+                new Album() { AlbumId = 8, ArtistName = "System of a down", AlbumTitle = "Hypnotize", Price = 21, CoverFileName = "8.jpg", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 2 },
+                new Album() { AlbumId = 9, ArtistName = "The Offspring", AlbumTitle = "Greatest Hits", Price = 25, CoverFileName = "9.jpg", IsBestseller = false, DateAdded = new DateTime(2014, 04, 2), GenreId = 2 }
             };
 
             albums.ForEach(a => context.Albums.AddOrUpdate(a));
