@@ -174,16 +174,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Covers\1.png" />
-    <Content Include="Content\Covers\2.png" />
-    <Content Include="Content\Covers\3.png" />
+    <Content Include="Content\Covers\1.jpg" />
+    <Content Include="Content\Covers\2.jpg" />
+    <Content Include="Content\Covers\3.jpg" />
     <Content Include="Content\Covers\4.jpg" />
-    <Content Include="Content\Covers\5.png" />
+    <Content Include="Content\Covers\5.jpg" />
     <Content Include="Content\Covers\594358f0-3ef5-4920-b7c0-6d86c282df20.jpg" />
-    <Content Include="Content\Covers\6.png" />
-    <Content Include="Content\Covers\7.png" />
-    <Content Include="Content\Covers\8.png" />
-    <Content Include="Content\Covers\9.png" />
+    <Content Include="Content\Covers\6.jpg" />
+    <Content Include="Content\Covers\7.JPG" />
+    <Content Include="Content\Covers\8.JPG" />
+    <Content Include="Content\Covers\9.jpg" />
     <Content Include="Content\Covers\aa9760ef-b6dc-4242-a788-2573cfc4732d.jpg" />
     <Content Include="Content\Genre-icons\alternative.png" />
     <Content Include="Content\Genre-icons\classics.png" />
@@ -199,6 +199,7 @@
     <Content Include="Content\Genre-icons\rock.png" />
     <Content Include="Content\Images\ajax-loader.gif" />
     <Content Include="Content\Images\ajax-loader.png" />
+    <Content Include="Content\Images\audiocdshop-logo-main.png" />
     <Content Include="Content\Images\baner-main.png" />
     <Content Include="Content\Images\bestseller.png" />
     <Content Include="Content\Images\cart-details.png" />
@@ -216,7 +217,6 @@
     <Content Include="Content\Images\icons-36-white.png" />
     <Content Include="Content\Images\new.png" />
     <Content Include="Content\Images\searchlogo.png" />
-    <Content Include="Content\Images\spodigly-logo-main.png" />
     <Content Include="Content\Images\twitter-share.png" />
     <Content Include="Content\Images\upload.png" />
     <Content Include="Content\jquery.mobile-1.1.0.css" />
